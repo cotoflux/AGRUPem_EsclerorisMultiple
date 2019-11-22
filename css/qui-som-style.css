@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner2 {
+    width: 95%;
+    max-width: 1200px;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.wave {
+    height: 100px;
+    width: 100%;
+    background: #17a2b8;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: inherit;
+}
+
+.text-banner {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.title {
+    font-size: 80px;
+    animation: moveRight 1s ease-in;
+}
+
+.subtitle {
+    font-size: 21px;
+    font-weight: 300;
+    animation: moveLeft 1s ease-in;
+}
+

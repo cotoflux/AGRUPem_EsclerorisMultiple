@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    z-index: 10;
+    height: auto;
+    padding: 48px;
+    width: 100%;
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+.banner {
+    position: relative;
+    background: url(/imagenes/banner.jpg);
+    min-height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-top: 150px;
+    padding-left: 210px;
+    font-family: 'Literata', serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: inherit;
+}
+
+.text-banner {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cuidat {
+    height: 250px;
+}
+
+.stjordi, .cim, .poma, .diamundial {
+    height: 250px;
+}
+
+
+.card-campaign {
+    height: auto;
+    overflow: hidden;
+
+}
+
+.card-campaign > img {
+    height: 300px;
+    width: auto;
+}
+

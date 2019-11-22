@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    z-index: 10;
+    height: auto;
+    padding: 48px;
+    width: 100%;
+}
+
+.bannerWave {
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 210px;
+    font-family: 'Literata', serif;
+}
+
+.wave {
+    height: 100px;
+    width: 100%;
+    background: #17a2b8;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: inherit;
+}
+
+.text-banner {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.conf {
+    max-width: 900px;
+}
